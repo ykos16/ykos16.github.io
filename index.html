@@ -14,8 +14,11 @@
         <link rel="stylesheet" type="text/css" href="portfolio.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
         
 <link rel="stylesheet" href="jquery.vnm.confettiButton.css" type="text/css" media="screen" />
+
         
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
@@ -25,22 +28,22 @@
 	<title>Portfolio</title>
 </head>
 <body>
-	<nav class="navbar" style="background-color: #6f35fc;">
-        <div class="container">
-            <a href="" class="navbar-brand" style="color: white;"><i class="fa fa-hand-peace-o" aria-hidden="true" style="color: white;"></i> Portfolio of Laurynas <i class="fa fa-hand-peace-o" aria-hidden="true" style="color: white;"></i></a>
-        </div>
+	
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="" class="navbar-brand" style="color: black; font-family: 'Lobster', cursive;"><i class="fa fa-hand-peace-o" aria-hidden="true" style="color: white; "></i> Portfolio of Laurynas <i class="fa fa-hand-peace-o" aria-hidden="true" style="color: white;"></i></a>
+        
     </nav>
     
-    <section id="header" class="jumbotron text-center">
-        <h1 class="display-3" style="color: white;">Hello i am Laurynas Runkauskas</h1>
-        <p class="lead" style="color: white;"><i class="fas fa-laptop"></i> I am a self taught beginner in web and front-end development <i class="fas fa-laptop"></i></p>
+    <section id="header" >
+        <h1 class="display-3" style="color: black;">Hello i am Laurynas Runkauskas</h1>
+        <h2 class="lead" style="color: black;"><i class="fas fa-laptop" style="color: white;"></i> I am a self taught beginner in web and front-end development <i class="fas fa-laptop" style="color: white;"></i></h2>
         
     </section>
 
     <section id="bio" class="container-fluid px-0">
     <div >
-    	<h1>I am looking for a entry level front-end or web developer job in Vilnius </h1>
-    	<p>With this webpage and with the projects bellow i will try to convince you to hire me</p>
+    	<h1 style="color: black;">I am looking for a entry level front-end or web developer job in Vilnius </h1>
+    	<h3 style="color: black;">With this webpage and with the projects bellow i will try to convince you to hire me</h3>
         <a href="https://www.facebook.com/laurynas.runkauskas" class="btn btn-primary" id="btn"><i class="fab fa-facebook"></i> My Facebook</a>
         <a href="https://www.linkedin.com/in/laurynas-runkauskas-780325180" class="btn btn-info" id="btn"><i class="fab fa-linkedin"></i> My LinkedIn</a>
         <a href="mailto:l.runkauskas@gmail.com" class="btn btn-danger"><i class="fas fa-at" id="btn"></i> My Email</a>
@@ -50,15 +53,16 @@
     </section>
     <div id="pic">
  <img src="https://scontent.fvno3-1.fna.fbcdn.net/v/t1.0-1/p160x160/14192503_1400061030023410_7363416971520553893_n.jpg?_nc_cat=104&_nc_ht=scontent.fvno3-1.fna&oh=8d2997817380278c4110a2c591786f99&oe=5D4CEA38" class="rounded-circle img-fluid">
+ <h2 style="color: black; font-family: 'Lobster', cursive;">Scroll down to discover!</h2>
 </div>  
 
-<section class="container-fluid px-0">
+<section id="tvarka" class="container-fluid px-0">
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
           <h1 class="display-2">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-          <p style="font-weight: bold;">Code used in this project:</p>
-          <p style="font-weight: bold;">HTML/CSS, Bootstrap 4 and few lines of javascript.</p>
+          <h3 style="font-weight: bold;">Code used in this project:</h3>
+          <h4 style="font-weight: bold;">HTML/CSS, Bootstrap 4 and few lines of javascript.</h4>
           <a href="https://ykos16.github.io/candy/" class="btn btn-light">Visit</a>
           
         </div>
@@ -69,18 +73,18 @@
       </div>
     </section>
    
-   <section class="container-fluid px-0">
+   <section id="tvarka" class="container-fluid px-0">
      <div class="row align-items-center content">
        <div class="col-md-6 order-2 order-md-1">
          <img class="img-fluid" src="https://raw.githubusercontent.com/ykos16/ykos16.github.io/master/imgs/rgbGame.jpg" alt="">
        </div>
        <div class="col-md-6 text-center order-1 order-md-2">
          <div class="row justify-content-center">
-          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-             <h2>RGB Color Game <i class="fab fa-js"></i></h2>
-             <p style="font-weight: bold;">Code used in this project:</p>
-                <p class="lead" style="font-weight: bold;">The game was fully created in JavaScript and jus a tiny bit of CSS</p>
-
+          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0" style="color: red;">
+             <h1>RGB Color Game <i class="fab fa-js"></i></h1>
+             <h3 style="font-weight: bold;">Code used in this project:</h3>
+                <h3 class="lead" style="font-weight: bold;">The game was fully created in JavaScript and jus a tiny bit of CSS</h3>
+                <a href="https://ykos16.github.io/rgbColorGame/" class="btn btn-danger">Visit</a>
            </div>
 
          </div>
@@ -88,31 +92,36 @@
    
    </section>
 
-<section class="container-fluid px-0">
+<section id="tvarka" class="container-fluid px-0">
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
-          <h1 class="display-2">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-          <p style="font-weight: bold;">Code used in this project:</p>
-          <p style="font-weight: bold;">HTML/CSS, Bootstrap 4 and few lines of javascript.</p>
+          <h1 class="display-2" style="color: black;">A bit of information about me</h1>
+          <p style="color: black;">I am a Junior Specialist at goverment organization called Public Safety Service. I am eager to start anew career and waiting for my chance. Everything you see here has been done by me. The skills i used making these project i learned on udemy.com and freecodecamp.com. I will continue learning and soon starting a course on MySql and intermediate JavaScript and also a PHP course. </p>
+          
+          
           
         </div>
         </div>
-        
+        <div class="col-md-6">
+            <!-- The use of this image is for promotion of the site and for personal use only -->
+          <img class="img-fluid" src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg" alt="">
+          <!-- Copyright © 2019 Udemy, Inc. All rights reserved -->
+          <img class="img-fluid" src="https://secure.meetupstatic.com/photos/event/4/c/b/b/600_468259643.jpeg" alt="">
+
+        </div>
       </div>
     </section>
 
 
-<footer>
+
     <section>
-        <div class="row">
-            <p class="text-center">Laurynas Runkauskas 2018</p>
-            <p class="text-center"><a href="mailto:l.runkauskas@gmail.com">l.runkauskass@gmail.com</a></p>
+            <div class="row">
+            
             <p class="text-center"><a data-scroll href="#top">Go back to top</a></p>
         </div>
-    </section>
-</footer>
-
+    
+</section>  
 
 
 
@@ -120,6 +129,7 @@
 
 
 <script src="jquery.vnm.confettiButton.min.js"></script>
+<script src="jquery.boxloader.js"></script>
 
 <script>
     $(function(){
@@ -127,6 +137,32 @@
   $('.btn').confettiButton();
 
 });
+    $(function () {
+        $(document).scroll(function(){
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass ("scrolled", $(this).scrollTop() > $nav.height())
+
+        });
+      });
+    $("section").boxLoader({
+  //defaults values
+  direction: "x",
+  position: "-50%",
+  effect: "fadeIn",
+  duration: "1s",
+  windowarea: "50%",
+  container: window
+});
+    $(".pabaiga").boxLoader({
+  //defaults values
+  direction: "x",
+  position: "-50%",
+  effect: "fadeIn",
+  duration: "1s",
+  windowarea: "50%",
+  container: window
+});
+
 </script>
 
 
