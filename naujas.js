@@ -5,7 +5,7 @@
   var active3 = false;
   var active4 = false;
 
-    $('.parent2').on('mousedown touchstart', function() {
+    $('.parent2').on('touchstart mousedown', function() {
     
     if (!active1) $(this).find('.test1').css({'background-color': 'gray', 'transform': 'translate(0px,125px)'});
     else $(this).find('.test1').css({'background-color': 'dimGray', 'transform': 'none'}); 
